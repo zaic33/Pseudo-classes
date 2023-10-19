@@ -1,0 +1,59 @@
+.card{
+    width: 400px;
+    height: 350px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.card-title{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+
+}
+
+.card-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-form label{
+    margin-bottom: 10px;
+}
+
+.input-email{
+    background: #e9ecef;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    height: 50px;
+}
+
+.input-email:hover{
+    background: #dee2e6;
+}
+
+.input-email:focus{
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.btn-sign{
+    background: #1971c2;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn-sign:hover{
+    background: #1864ab;
+}
+
+.btn-sign:focus{
+    border: 1px solid #000;
+}
